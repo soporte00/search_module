@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="nav.css" />
+</head>
+<body>
+<center>
+	<h1>Search bar</h1>
+	<div id="navcontainer"></div>
+</center>
+
+
+
+
+
+
+<script type="text/javascript" src="nav.js"></script>
+
+
+<script type="text/javascript">
+	const navcontainer = document.getElementById('navcontainer')
+	const nav = navSearch(navcontainer,'mySearchNav',true);
+
+
+	nav[0].addEventListener("submit",()=>{
+
+		alert(`SEARCH= ${nav[1].value} `)
+	})
+</script>
+
+
+</body>
+</html>

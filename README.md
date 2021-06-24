@@ -1,4 +1,7 @@
-# search_module
-front end search module, where you can determine the container and get a return 
+# simple search bar
 
-of an array = [search Form, text Input]
+front end search bar module, where you can determine the container and get a return 
+
+of an array with the objects created [search Form, text Input]. All in one function 
+
+you can listen the submit and the bar cleaning event on the dom to a new search

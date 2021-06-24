@@ -1,4 +1,4 @@
-function navSearch(append=null,id=null,submitOnClean=false){
+function navSearch(append=null,id=null,submitOnClean=true){
 
 	let searchForm = document.createElement('FORM')
 	searchForm.setAttribute('class','nav__search--container')
@@ -25,7 +25,6 @@ function navSearch(append=null,id=null,submitOnClean=false){
 	searchForm.appendChild(subtn)
 
 	if(append != null)append.appendChild(searchForm)
-
 
 	clear.addEventListener('click',()=>{
 		input.value=''
